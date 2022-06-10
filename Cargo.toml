@@ -1,6 +1,6 @@
 [package]
 name = "rust_bfcompiler"
-version = "0.1.0"
+version = "1.0.0"
 authors = ["TheEyeOfAr3s"]
 edition = "2021"
 
