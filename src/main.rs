@@ -12,7 +12,7 @@ fn main() {
     let cleancode = clean(filecontents);
     let optcode = optimizer(cleancode);
     let output = compiler(optcode.0, optcode.1);
-    fs::write("out.c", output).expect("Unable to write!");
+    fs::write("out.cpp", output).expect("Unable to write!");
 }
 
 fn arg_collector() -> String{
